@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+p{
+    margin:10px;
+    color: aliceblue;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    justify-items: flex-start;
+    gap: 30px;
+    background-color: coral;
+}
+.logo{
+    margin: 15px;
+    cursor: pointer;
+}
+
+.menu{
+    list-style: none;
+    text-underline: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+}
